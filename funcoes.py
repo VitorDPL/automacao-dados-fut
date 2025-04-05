@@ -32,8 +32,6 @@ def recuperar_dados():
         
         campeonatos_importantes = soup.find_all('div', class_='ResponsiveTable')
 
-        print(campeonatos_importantes)
-
         dados_jogo = []  
 
         for campeonato in campeonatos_importantes:
